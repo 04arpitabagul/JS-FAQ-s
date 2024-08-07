@@ -1,0 +1,28 @@
+<!-- Object Property Access: Write a function getProperty(obj, prop) that takes an object 
+and a property name as arguments, and returns the value of that property. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function getProperty(obj, prop) {
+           return obj[prop];
+        }
+
+     const person = {
+         name: "Nick",
+         age: 34,
+         city: "New York"
+      };
+
+     console.log(getProperty(person, "name"));  
+     console.log(getProperty(person, "age"));  
+     console.log(getProperty(person, "city")); 
+    </script>
+</body>
+</html>

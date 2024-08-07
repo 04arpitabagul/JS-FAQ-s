@@ -1,0 +1,25 @@
+<!-- Object Method: Add a method getCarInfo to the car object that returns a string with the car's details. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const car = {
+          make: "Mercedez",
+          model: "Benz",
+          year: 2022,
+
+         getCarInfo: function() {
+               return `This car is a ${this.year} ${this.make} ${this.model}.`;
+         }
+};
+
+     console.log(car.getCarInfo());
+    </script>
+</body>
+</html>
